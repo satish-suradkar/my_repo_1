@@ -1,18 +1,18 @@
 #!/usr/bin/python
 """This script prompts a user to enter a file name or director
 name to count the frequency of character and word"""
-
 import logging
 import os
 import argparse
 import re
 import json
 import subprocess
-
 from collections import defaultdict
-FINAL_DICT = defaultdict(dict)
 
+
+FINAL_DICT = defaultdict(dict)
 JSON_VAR = ""
+
 
 def get_file(filename):
     """file get"""
